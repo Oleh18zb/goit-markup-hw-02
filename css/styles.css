@@ -1,0 +1,142 @@
+/* body */
+body {
+    background-color: #FFFFFF;
+    font-family: roboto;
+    color: #757575;
+}
+/* header */
+.page-header {
+width: 1600px;
+    height: 80px;
+}
+ul {
+    list-style: none;
+}
+/* logo */
+.logo {
+        color: #2196F3;
+}
+
+.logo-span {
+    color: #000;
+}
+/* nav */
+.site-nav {
+        color: #212121;
+        cursor: pointer;
+}
+.site-nav:hover, .site-nav:focus {
+    color: #2196F3;
+}
+/* contacts */
+.contact-information {
+        color: #757575;
+        cursor: pointer;
+}
+.contact-information:hover, .contact-information:focus {
+    color: #2196F3;
+}
+/* unique page content */
+/* hero */
+.hero {
+    background-color: #2F303A;
+    width: 1600px;
+        height: 600px;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+.hero-button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+/* section one */
+.section {}
+
+.section-title {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+
+.section-text {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* section two */
+.about {}
+
+.about-title {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+/* section three */
+.company {
+    background-color: #F5F4FA;
+}
+
+.company-title {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.company-name {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.company-text {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-text {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+
+.footer-contacts {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
