@@ -1,17 +1,21 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-color: #757575;
+}
 /* body */
 body {
     background-color: #FFFFFF;
     font-family: roboto;
-    color: #757575;
+}
+ul {
+    list-style: none;
 }
 /* header */
 .page-header {
 width: 1600px;
     height: 80px;
 }
-ul {
-    list-style: none;
-}
+
 /* logo */
 .logo {
         color: #2196F3;
@@ -61,7 +65,7 @@ ul {
         line-height: 16px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #212121;
+        color: var(--primary-text-color);
 }
 
 .section-text {
@@ -70,7 +74,7 @@ ul {
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--accent-color);
 }
 /* section two */
 .about {}
@@ -82,7 +86,7 @@ ul {
         line-height: 42px;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--primary-text-color);
 }
 /* section three */
 .company {
@@ -96,7 +100,7 @@ ul {
         line-height: 42px;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--primary-text-color);
 }
 
 .company-name {
@@ -106,7 +110,7 @@ ul {
         line-height: 19px;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--primary-text-color);
 }
 
 .company-text {
@@ -116,7 +120,7 @@ ul {
         line-height: 19px;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--accent-color);
 }
 /* footer */
 .footer {
