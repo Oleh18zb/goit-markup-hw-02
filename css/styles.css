@@ -6,6 +6,7 @@
 body {
     background-color: #FFFFFF;
     font-family: roboto;
+    color: #000;
 }
 ul {
     list-style: none;
@@ -14,11 +15,15 @@ ul {
 .page-header {
 width: 1600px;
     height: 80px;
+    display: flex;
 }
 
 /* logo */
 .logo {
         color: #2196F3;
+        margin-top: 24px;
+            margin-bottom: 25px;
+            margin-left: 215px;
 }
 
 .logo-span {
@@ -26,16 +31,22 @@ width: 1600px;
 }
 /* nav */
 .site-nav {
-        color: #212121;
+        color: var(--primary-text-color);
         cursor: pointer;
+        margin-top: 32px;
+            margin-bottom: 32px;
+            margin-left: 453px;
 }
 .site-nav:hover, .site-nav:focus {
     color: #2196F3;
 }
 /* contacts */
 .contact-information {
-        color: #757575;
+        color: var(--accent-color);
         cursor: pointer;
+        margin-top: 32px;
+            margin-bottom: 32px;
+            margin-left: 1078px;
 }
 .contact-information:hover, .contact-information:focus {
     color: #2196F3;
@@ -46,6 +57,7 @@ width: 1600px;
     background-color: #2F303A;
     width: 1600px;
         height: 600px;
+        text-align: center;
 }
 
 .hero-title {
@@ -54,6 +66,7 @@ width: 1600px;
 .hero-button {
     background-color: #2196F3;
     color: #FFFFFF;
+    cursor:pointer;
 }
 /* section one */
 .section {}
@@ -62,17 +75,15 @@ width: 1600px;
     font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--primary-text-color);
 }
 
 .section-text {
-    font-style: normal;
-        font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7;
         letter-spacing: 0.03em;
         color: var(--accent-color);
 }
@@ -83,7 +94,7 @@ width: 1600px;
     font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
@@ -97,27 +108,26 @@ width: 1600px;
     font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
 }
 
 .company-name {
-    font-style: normal;
+    
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
 }
 
 .company-text {
-    font-style: normal;
-        font-weight: 400;
+    
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--accent-color);
@@ -126,12 +136,13 @@ width: 1600px;
 .footer {
     background-color: #2F303A;
 }
+.footer-span {
+    color: #FFFFFF;
+}
 
 .footer-text {
-    font-style: normal;
-        font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7;
         letter-spacing: 0.03em;
         color: #FFFFFF;
 }
@@ -140,7 +151,10 @@ width: 1600px;
     font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts:hover .footer-contacts:focus {
+    color: #2196F3;
 }
