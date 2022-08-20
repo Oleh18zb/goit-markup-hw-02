@@ -16,9 +16,6 @@ body {
     font-family: roboto;
     color: var(--text-color);
 }
-ul {
-    list-style: none;
-}
 
 /* header */
 .page-header {
@@ -41,13 +38,16 @@ width: 1600px;
 .site-nav {
         color: var(--primary-text-color);
         cursor: pointer;
+        list-style: none;
+}
+
+.site-nav:hover, .site-nav:focus, .site-nav:active {
+    color: var(--logo-color);
 }
 .nav-link {
     text-decoration: none;
 }
-.site-nav:hover, .site-nav:focus, .site-nav:active {
-    color: var(--logo-color);
-}
+
 /* contacts */
 .contact-information {
         color: var(--accent-color);
@@ -57,6 +57,10 @@ width: 1600px;
 .contact-information:hover, .contact-information:focus {
     color: var(--logo-color);
 }
+.site-contact {
+    list-style: none;
+}
+
 /* unique page content */
 /* hero */
 .hero {
@@ -77,6 +81,10 @@ width: 1600px;
 }
 /* section one */
 .section {}
+
+.section-about {
+    list-style: none;
+}
 
 .section-title {
     font-style: normal;
@@ -106,6 +114,10 @@ width: 1600px;
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
 }
+.about-list {
+    list-style: none;
+}
+
 /* section three */
 .company {
     background-color: var(--second-bg-color);
@@ -120,6 +132,10 @@ width: 1600px;
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
 }
+.company-list {
+    list-style: none;
+}
+
 
 .company-name {
     
@@ -153,10 +169,12 @@ width: 1600px;
         letter-spacing: 0.03em;
         color: var(--bg-color);
 }
+.footer-list {
+    list-style: none;
+}
+
 
 .footer-contacts {
-    font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: calc(24 / 14);
         letter-spacing: 0.03em;
@@ -166,6 +184,34 @@ width: 1600px;
 .footer-contacts:hover, .footer-contacts:focus, .footer-contacts:active{
     color: var(--logo-color);
 }
+.btn-list {
+    list-style: none;
+}
+.img-list {
+    list-style: none;
+}
+.link-img {
+    text-decoration: none;
+}
+
+.img-title {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: calc(36 / 18);
+        letter-spacing: 0.06em;
+        color: var(--primary-text-color);
+}
+
+.sub-text {
+    font-size: 16px;
+        line-height: calc(30 / 16);
+        letter-spacing: 0.03em;
+        color: var(--accent-color);
+}
+
+.section-btn {
+}
+
 .btn {
     background-color: var(--second-bg-color);
     color: var(--primary-text-color);
@@ -175,4 +221,8 @@ width: 1600px;
         line-height: calc(26 / 16);
         text-align: center;
         letter-spacing: 0.03em;
+}
+.btn:hover, .btn:focus, .btn:active {
+    background-color: var(--logo-color);
+        color: var(--bg-color);
 }
