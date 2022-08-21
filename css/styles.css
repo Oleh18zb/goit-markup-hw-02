@@ -16,6 +16,12 @@ body {
     font-family: roboto;
     color: var(--text-color);
 }
+.current {
+    color: var(--logo-color);
+}
+.push {
+    color:var(--logo-color);
+}
 
 /* header */
 .page-header {
